@@ -469,15 +469,18 @@ Made by Civio Arts - 11043946
             }
             
             function getData(){
-                // get csv file
+                // open request for file
                 var oReq = new XMLHttpRequest();
 
+                // when ready, change html to filecontent
                 oReq.onreadystatechange = function() {
                    if (this.readyState == 4 && this.status == 200) {
                         document.getElementById("rawdata").innerHTML =
                         this.responseText;
                    }
                 };
+                
+                // open file (get file) and send
                 oReq.open("GET", "https://github.com/civart2/dataprocessing/blob/master/Homework/Week_2/temperature.csv");
                 oReq.send();
             }
