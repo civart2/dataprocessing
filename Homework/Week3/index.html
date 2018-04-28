@@ -5,11 +5,13 @@
         <title>Barchart</title>
         <script type="text/javascript" src="d3/d3.v3.js"></script>
         <style type="text/css">
-            rect.bar {
+            .Student{
+              display: inline-block;
+            }
+
+            rect {
       				display: inline-block;
-      				width: 20px;
-      				height: 75px;
-              margin-right: 2px;
+              margin-left: 20px;
             }
 
             .axis path,
@@ -25,19 +27,22 @@
         </style>
     </head>
     <body>
-      <p>
+      <p class="student">
         Student name: Civio Arts </br>
         Student number: 11043946
       </p>
-      <p>
-        !TODO: INFO ABOUT CHART AND DATASET!
+      <p class="intro">
+        Barchart made with de D3 library. Fictional numbers about scores
+        in provinces.
       </p>
+
       <script type="text/javascript">
 
         // set  height & width of svg element and bar padding
-        var svgWidth = 800;
-        var svgHeight = 600;
-        var barPadding = 1;
+        var svgWidth = 600;
+        var svgHeight = 400;
+        var xPadding = 20;
+        var yPadding = 50;
 
         // create SVG element
         var svg = d3.select("body")
@@ -60,16 +65,16 @@
                                  return d.Score; })])
                                .range([0, svgHeight]);
 
-           // create axis
-           var xAxis = d3.svg.axis()
-                             .scale(xScale)
-                             .orient("bottom")
-                             .ticks(5);
+          // create axis
+          var xAxis = d3.svg.axis()
+                            .scale(xScale)
+                            .orient("bottom")
+                            .ticks(5);
 
-           var yAxis = d3.svg.axis()
-                   .scale(yScale)
-                   .orient("left")
-                   .ticks(5);
+          var yAxis = d3.svg.axis()
+                            .scale(yScale)
+                            .orient("left")
+                            .ticks(5);
 
           // visualize bars
           svg.selectAll("rect")
@@ -80,7 +85,7 @@
                return xScale(d.Province); })
              .attr("y", function(d){
                return yScale(d.Score); })
-             .attr("width", svgWidth / dataset.data.length - barPadding)
+             .attr("width", svgWidth / dataset.data.length - xPadding)
              .attr("height", function(d){
                return d.Score;
              })
@@ -105,18 +110,18 @@
               .attr("fill", "yellow")
               .attr("text-anchor", "middle")
 
-          // create x axis
+          // create axes
           svg.append("g")
             .attr("class", "axis")
-            .attr("transform", "translate(0," + (svgHeight - barPadding) + ")")
+            .attr("transform", "translate(0," + (svgHeight - xPadding) + ")")
             .call(xAxis);
 
-            svg.append("g")
-               .attr("class", "axis")
-               .attr("transform", "translate(" + barPadding + ",0)")
-               .call(yAxis);
+          svg.append("g")
+             .attr("class", "axis")
+             .attr("transform", "translate(" + yPadding + ",0)")
+             .call(yAxis);
 
-          });
+        });
 
       </script>
     </body>
