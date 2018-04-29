@@ -72,11 +72,12 @@
                                  return d.Score; })])
                                .range([0, svgHeight]);
 
-          // create axis
+          // create x axis
           var xAxis = d3.svg.axis()
                             .scale(xScale)
                             .orient("bottom");
-
+    
+          // create y axis
           var yAxis = d3.svg.axis()
                             .scale(yScale)
                             .orient("left")
@@ -136,29 +137,32 @@
               .on("mouseover", showObject)
               .on("mouseout", hideObject);
 
-          // create axes
+          // create axes x
           svg.append("g")
             .attr("class", "axis")
             .attr("transform", "translate(0," + (svgHeight - yPadding) + ")")
             .call(xAxis);
 
+          // create axes y
           svg.append("g")
              .attr("class", "axis")
              .attr("transform", "translate(" + yPadding + ",0)")
              .call(yAxis);
         });
 
+        // show text when mouse over
         function showObject(d){
-          // show text when mouse over
-          d3.select(this)
-            .attr("class", "hide");
-        }
-
-        function hideObject(d){
           d3.select(this)
             .attr("class", "show");
         }
 
+        // hide text when mouse out
+        function hideObject(d){
+          d3.select(this)
+            .attr("class", "hide");
+        }
+
+        // change color bar when mouse over
         function changeColor(d){
           d3.select(this)
           .attr("fill", function(d){
@@ -166,6 +170,7 @@
           })
         }
 
+        // change barcolor to basic when mouse out
         function basicColor(d){
           d3.select(this)
           .attr("fill", function(d){
