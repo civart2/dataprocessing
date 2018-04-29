@@ -11,7 +11,7 @@
 
             rect {
       				display: inline-block;
-              margin-left: 20px;
+              margin-left: 10px;
             }
 
             .axis path,
@@ -20,9 +20,18 @@
               stroke: black;
               shape-rendering: crispEdges;
             }
-            .axis test{
+
+            .axis text{
               font-family: sans-serif;
               font-size: 11px;
+            }
+
+            .hide{
+              visibility: hidden;
+            }
+
+            .show{
+              visibility: visible;
             }
         </style>
     </head>
@@ -42,22 +51,20 @@
         var svgWidth = 600;
         var svgHeight = 400;
         var xPadding = 20;
-        var yPadding = 50;
-
-        // create SVG element
-        var svg = d3.select("body")
-                    .append("svg")
-                    .attr("width", svgWidth)
-                    .attr("height", svgHeight);
+        var yPadding = 80;
 
         // process json file for visualization
         d3.json("test.json", function(dataset){
 
+          // define max Province function
+          var Province = function(d){
+            return d.Province };
+
           // create x scale
           var xScale = d3.scale.ordinal()
-                              .domain([0, d3.max(dataset.data, function(d){
-                                return d.Province })])
-                              .range([0, svgWidth]);
+                              .domain([d3.min(dataset.data, Province),
+                                d3.max(dataset.data, Province)])
+                              .rangePoints([0, 200, 400, 600]);
 
           // create y scale
           var yScale = d3.scale.linear()
@@ -68,13 +75,27 @@
           // create axis
           var xAxis = d3.svg.axis()
                             .scale(xScale)
-                            .orient("bottom")
-                            .ticks(5);
+                            .orient("bottom");
 
           var yAxis = d3.svg.axis()
                             .scale(yScale)
                             .orient("left")
-                            .ticks(5);
+                            .ticks(5)
+
+          // create SVG element
+          var svg = d3.select("body")
+                      .data(dataset.data)
+                      .append("svg")
+                      .attr("x", function(d){
+                        return xScale(d.Province)
+                      })
+                      .attr("y", function(d){
+                        return yScale(dataset.Score); })
+                      .attr("width", function(d, i){
+                        return svgWidth / i;
+                      })
+                      .attr("height", svgHeight)
+                      .attr("fill", "black");
 
           // visualize bars
           svg.selectAll("rect")
@@ -82,16 +103,19 @@
              .enter()
              .append("rect")
              .attr("x", function(d){
-               return xScale(d.Province); })
+               return xScale(d.Province)
+             })
              .attr("y", function(d){
-               return yScale(d.Score); })
-             .attr("width", svgWidth / dataset.data.length - xPadding)
+               return yScale(dataset.Score); })
+             .attr("width", svgWidth / dataset.data.length)
              .attr("height", function(d){
                return d.Score;
              })
              .attr("fill", function(d){
                return "rgb(29,03," + (d.Score / 8.8) + ")"
              })
+             .on("mouseover", changeColor)
+             .on("mouseout", basicColor);
 
            // show value of every bar
            svg.selectAll("text")
@@ -108,21 +132,46 @@
                 return yScale(d.Score);
               })
               .attr("fill", "yellow")
-              .attr("text-anchor", "middle")
+              .attr("text-anchor", "right")
+              .on("mouseover", showObject)
+              .on("mouseout", hideObject);
 
           // create axes
           svg.append("g")
             .attr("class", "axis")
-            .attr("transform", "translate(0," + (svgHeight - xPadding) + ")")
+            .attr("transform", "translate(0," + (svgHeight - yPadding) + ")")
             .call(xAxis);
 
           svg.append("g")
              .attr("class", "axis")
              .attr("transform", "translate(" + yPadding + ",0)")
              .call(yAxis);
-
         });
 
+        function showObject(d){
+          // show text when mouse over
+          d3.select(this)
+            .attr("class", "hide");
+        }
+
+        function hideObject(d){
+          d3.select(this)
+            .attr("class", "show");
+        }
+
+        function changeColor(d){
+          d3.select(this)
+          .attr("fill", function(d){
+            return "rgb(29,03," + (d.Score / 22) + ")"
+          })
+        }
+
+        function basicColor(d){
+          d3.select(this)
+          .attr("fill", function(d){
+            return "rgb(29,03," + (d.Score / 8.8) + ")"
+          })
+        }
       </script>
     </body>
 </html>
