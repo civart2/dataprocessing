@@ -1,3 +1,26 @@
+/* 
+ * name: Civio Arts
+ * studentnumber: 11043946
+ * assignment 4: scatterplot
+ */
+svg{
+    text-align: center;
+}
+
 .label{
-    text-color: black;
+    color: black;
+}
+
+#title{
+    font-weight: bolder;
+    text-align: center;
+}
+
+#yname{
+    float: left;
+    margin-top: 10%;
+    -moz-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
 }
