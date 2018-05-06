@@ -7,13 +7,20 @@ svg{
     text-align: center;
 }
 
-.label{
-    color: black;
-}
-
 #title{
     font-weight: bolder;
     text-align: center;
+}
+
+g{
+    color: #000000;
+    display: visible;
+}
+
+.label{
+    display: visible;
+    color: black;
+    color: #000000;
 }
 
 #yname{
