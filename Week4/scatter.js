@@ -94,7 +94,6 @@ window.onload = function() {
           .attr("class", "label")
           .attr("x", width)
           .attr("y", -20)
-          .style("text-color", "#000000")
           .style("text-anchor", "middle")
           .text("Women researchers");
 
@@ -108,7 +107,6 @@ window.onload = function() {
           .attr("x", 160)
           .attr("y", 20)
           .style("text-anchor", "end")
-          .style("text-color", "#000000")
           .text("Households Economic well-being");
 
         // set womenData point
