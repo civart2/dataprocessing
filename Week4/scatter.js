@@ -45,9 +45,7 @@ window.onload = function() {
                         .observations[0][0]));
             }
         }
-        console.log(womenData);
-        console.log(consConfData);
- 
+
         // set margin, width and height
         var margin = {top: 20, right: 20, bottom: 30, left: 40},
         width = 960 - margin.left - margin.right,
@@ -70,16 +68,14 @@ window.onload = function() {
 
         // define Y-Axis
         var yAxis = d3.axisLeft()
-                      .scale(yScale)
+                      .scale(yScale);
 
         // create svg-element
         var svg = d3.select("body")
                     .append("svg")
                     .attr("width", width + margin.left + margin.right)
                     .attr("height", height + margin.top + margin.bottom)
-                    .append("g")
-                    .attr("transform", "translate(" + margin.left + 
-                        "," + margin.top + ")");
+                    .append("g");
 
         // define domains
         xScale.domain(d3.extent(womenData, function(d) { return Math.max(d); })).nice();
@@ -93,21 +89,24 @@ window.onload = function() {
           .append("text")
           .attr("class", "label")
           .attr("x", width)
-          .attr("y", -20)
-          .style("text-anchor", "middle")
-          .text("Women researchers");
+          .attr("y", (height / 1000))
+          .attr("dy", "-0.7em")
+          .style("text-anchor", "end")
+          .style("fill", "#000000")
+          .text("Women in science");
 
         // append elements to svg y-axis
         svg.append("g")
           .attr("class", "yaxis")
           .call(yAxis)
-          .enter()
           .append("text")
           .attr("class", "label")
-          .attr("x", 160)
-          .attr("y", 20)
+          .attr("transform", "rotate(-90)")
+          .attr("y", 6)
+          .attr("dy", ".70em")
           .style("text-anchor", "end")
-          .text("Households Economic well-being");
+          .style("fill", "#000000")
+          .text("Household well-being");
 
         // set womenData point
         svg.selectAll(".dot")
@@ -120,7 +119,8 @@ window.onload = function() {
    
         // set consConf point
         svg.selectAll(".dot")
-           .data(consConf)
+           .data(consConfData)
+           .enter()
            .append("circle")
            .attr("class", "dot")
            .attr("cy", function(d) { return yScale(d); });
