@@ -75,7 +75,8 @@ window.onload = function() {
                     .append("svg")
                     .attr("width", width + margin.left + margin.right)
                     .attr("height", height + margin.top + margin.bottom)
-                    .append("g");
+                    .append("g")
+                    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
         // define domains
         xScale.domain(d3.extent(womenData, function(d) { return Math.max(d); })).nice();
@@ -92,7 +93,7 @@ window.onload = function() {
           .attr("y", (height / 1000))
           .attr("dy", "-0.7em")
           .style("text-anchor", "end")
-          .style("fill", "#000000")
+          .style("fill", "#000")
           .text("Women in science");
 
         // append elements to svg y-axis
@@ -105,7 +106,7 @@ window.onload = function() {
           .attr("y", 6)
           .attr("dy", ".70em")
           .style("text-anchor", "end")
-          .style("fill", "#000000")
+          .style("fill", "#000")
           .text("Household well-being");
 
         // set womenData point
