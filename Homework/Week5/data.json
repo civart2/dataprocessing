@@ -1,0 +1,92 @@
+[
+    {
+      "period": 2000,
+      "male": 37,
+      "female": 39.4
+    },
+    {
+      "period": 2001,
+      "male": 37.1,
+      "female": 39.5
+    },
+    {
+      "period": 2002,
+      "male": 37.3,
+      "female": 39.6
+    },
+    {
+      "period": 2003,
+      "male": 37.4,
+      "female": 39.7
+    },
+    {
+      "period": 2004,
+      "male": 37.6,
+      "female": 39.8
+    },
+    {
+      "period": 2005,
+      "male": 37.9,
+      "female": 40
+    },
+    {
+      "period": 2006,
+      "male": 38.1,
+      "female": 40.3
+    },
+    {
+      "period": 2007,
+      "male": 38.4,
+      "female": 40.5
+    },
+    {
+      "period": 2008,
+      "male": 38.7,
+      "female": 40.7
+    },
+    {
+      "period": 2009,
+      "male": 38.9,
+      "female": 40.9
+    },
+    {
+      "period": 2010,
+      "male": 39.1,
+      "female": 41.1
+    },
+    {
+      "period": 2011,
+      "male": 39.4,
+      "female": 41.3
+    },
+    {
+      "period": 2012,
+      "male": 39.6,
+      "female": 41.5
+    },
+    {
+      "period": 2013,
+      "male": 39.9,
+      "female": 41.7
+    },
+    {
+      "period": 2014,
+      "male": 40.1,
+      "female": 41.9
+    },
+    {
+      "period": 2015,
+      "male": 40.4,
+      "female": 42.1
+    },
+    {
+      "period": 2016,
+      "male": 40.6,
+      "female": 42.3
+    },
+    {
+      "period": 2017,
+      "male": 40.7,
+      "female": 42.5
+}
+]
