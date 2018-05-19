@@ -29,6 +29,13 @@ text
     font-size: 12px;
 }
 
+#value
+{
+    display: block;
+    margin: auto;
+    color: darkblue;
+    text-align: center;
+}
 .female
 {
     fill: #045a8d;
