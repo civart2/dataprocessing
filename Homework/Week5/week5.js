@@ -1,7 +1,7 @@
 /* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Student name: Civio Arts
+ * Student number: 11043946
+ * Assignment 5: Linked Views
  */
 window.onload = function()
 {
@@ -48,14 +48,14 @@ window.onload = function()
         // append title to svg
         svg.append("text")
                 .attr("class", "title")
-                .attr("x", "40%")
+                .attr("x", "35%")
                 .attr("y", 30)
                 .text("AVERAGE AGE PER GENDER");
         
         // append source notation
         svg.append("text")
            .text("source: CBS")
-           .attr("x", "50%")
+           .attr("x", "46%")
            .attr("y", 50);
         
         // append g-element en define position
@@ -179,14 +179,14 @@ window.onload = function()
         // append title
         svg.append("text")
                 .attr("class", "title")
-                .attr("x", "40%")
+                .attr("x", "37%")
                 .attr("y", 20)
                 .text(gender.toUpperCase() + "'S LIFE EXPECTANCY");
         
         // append source notation
         svg.append("text")
            .text("source: CBS")
-           .attr("x", "48%")
+           .attr("x", "46.5%")
            .attr("y", 50);
 
         // append element for extra graphics

@@ -2,12 +2,13 @@
 <!--
     Student name: Civio Arts
     Student number: 11043946
+    Assignment 5: Linked Views
 -->
 <head>
     <title>WEEK5</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="week5.css" type="text/css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="week5.css" type="text/css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -15,15 +16,65 @@
     <script src="queue.js" type="text/javascript"></script>
 </head>
 <body>
-    <div id="introduction">
-        TODO    
-    </div>
-    <div class="expected_graph">
-        <svg id="expected" width="960" height="500"></svg>
-    </div>
-    <hr>
-    <div class="population_graph">
-        <button id="color">GRAPH NOT LOADED YET</button>
-        <svg id="population" width="960" height="500"></svg>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" 
+         data-interval="false">
+        <div class="jumbotron text-center" style="background-color: transparent">
+            <h1>WEEK 5</h1>
+            <h2>AVERAGE AGE AND LIFE EXPECTANCY</h2>
+            <p>by Civio Arts<p>
+            <button id="color">GRAPH NOT LOADED YET</button>
+            <hr width="50%">
+        </div>
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <svg id="expected" width="960" height="500"></svg>
+            </div>
+
+            <div class="item">
+                <svg id="population" width="960" height="500"></svg><br>
+            </div>
+
+            <div class="item">
+                <div class="jumbotron text-center" > 
+                    <h1>Lifetime story</h1>
+                    <p>
+                        Retirement-policies are changing. New laws arise from the ground.
+                        <br>According to politicians we live longer.<br>
+                        This made me curious. So if we live longer, how long will that be?<br>
+                        How long does the average person still have to live? To get an answer<br>
+                        to this question I went to the 'Centraal Bureau voor Statistiek'. I've got<br>
+                        myself some datasets and tried to visualise it.<br><br>
+                        The first chart on this website shows the expected lifetime.<br>
+                        When you click on the bar it w
+                        ill change the gender.<br><br>
+                        The second chart will show you the average age in the Netherlands.<br>
+                        When you click on a bar, it will show you the specific gender on the first chart.<br>
+                        For example... if you click on the 'female' bar, the first graph will show you the<br>
+                        expected lifetime of women.<br><br>
+                        At the top of the webpage you'll see a button. This will change the color of the<br>
+                        chart... just for those who like it more.<br><br>
+                        Go ahead! Find out how long you have to live!!!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
     </div>
 </body>

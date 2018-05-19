@@ -21,6 +21,14 @@ text
     font-family: sans-serif;
 }
 
+#color
+{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
 .female
 {
     fill: #045a8d;
@@ -32,6 +40,12 @@ text
     fill: #333 !important;
 }
 
+.jumbotron
+{
+    background-color: transparent; 
+    margin-top:-60px;
+    margin-bottom: -40px;
+}
 .male
 {
     fill: #2b8cbe;
