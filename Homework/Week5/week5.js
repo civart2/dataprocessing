@@ -47,16 +47,16 @@ window.onload = function()
         
         // append title to svg
         svg.append("text")
-                .attr("class", "title")
-                .attr("x", "35%")
-                .attr("y", 30)
-                .text("AVERAGE AGE PER GENDER");
+            .attr("class", "title")
+            .attr("x", "35%")
+            .attr("y", 30)
+            .text("AVERAGE AGE PER GENDER");
         
         // append source notation
         svg.append("text")
-           .text("source: CBS")
-           .attr("x", "46%")
-           .attr("y", 50);
+            .text("source: CBS")
+            .attr("x", "46%")
+            .attr("y", 50);
         
         // append g-element en define position
         var g = svg.append("g").attr("transform", "translate(" + margin.left + "," 
@@ -89,70 +89,70 @@ window.onload = function()
 
         // append g-element to create bars and put them at the right position
         g.append("g")
-            .selectAll("g")
-            .data(data)
-            .enter().append("g")
-            .attr("transform", d => { 
-                return "translate(" + x0(d.period) + ",0)"; 
-                })
-            .selectAll("rect")
-            .data(d => { return keys.map(key => { 
-                    return { "key": key, "value": d[key]} });
-                })
-            .enter().append("rect")
-            .attr("class", d => {return ("bar " + d.key)})
-            .attr("x", d => { return x1(d.key); })
-            .attr("y", d => { return y(d.value); })
-            .attr("width", x1.bandwidth())
-            .attr("height", d => { return height - y(d.value); })
-            .on("click", d => { gender = d.key; update(data2); });
+          .selectAll("g")
+          .data(data)
+          .enter().append("g")
+          .attr("transform", d => { 
+              return "translate(" + x0(d.period) + ",0)"; 
+              })
+          .selectAll("rect")
+          .data(d => { return keys.map(key => { 
+                  return { "key": key, "value": d[key]} });
+              })
+          .enter().append("rect")
+          .attr("class", d => {return ("bar " + d.key)})
+          .attr("x", d => { return x1(d.key); })
+          .attr("y", d => { return y(d.value); })
+          .attr("width", x1.bandwidth())
+          .attr("height", d => { return height - y(d.value); })
+          .on("click", d => { gender = d.key; update(data2); });
 
         // create  x-axis
         g.append("g")
-            .attr("transform", "translate(0," + height + ")")
-            .call(d3.axisBottom(x0))
-            .append("text")
-            .attr("x", width / 2)
-            .attr("y", 35)
-            .attr("fill", "#000")
-            .text("PERIOD");
+          .attr("transform", "translate(0," + height + ")")
+          .call(d3.axisBottom(x0))
+          .append("text")
+          .attr("x", width / 2)
+          .attr("y", 35)
+          .attr("fill", "#000")
+          .text("PERIOD");
 
         // create y-axis
         g.append("g")
-            .call(d3.axisLeft(y).ticks(null, "s"))
-            .append("text")
-                .attr("transform", "rotate(-90)")
-                .attr("y", -40)
-                .attr("x", -(height / 3))
-                .attr("dy", "0.71em")
-                .attr("text-anchor", "end")
-                .attr("fill", "#000")
-                .text("POPULATION");
+          .call(d3.axisLeft(y).ticks(null, "s"))
+          .append("text")
+          .attr("transform", "rotate(-90)")
+          .attr("y", -40)
+          .attr("x", -(height / 3))
+          .attr("dy", "0.71em")
+          .attr("text-anchor", "end")
+          .attr("fill", "#000")
+          .text("AVERAGE AGE IN POPULATION (years)");
 
         // create legend
         var legend = g.append("g")
-                      .attr("class", "legend")
-                      .attr("text-anchor", "end")
-                      .selectAll("g")
-                      .data(keys)
-                      .enter().append("g")
-                      .attr("transform", (d, i) => {
-                              return "translate(0," + i * 20 + ")"; 
-                          });
-
+                       .attr("class", "legend")
+                       .attr("text-anchor", "end")
+                       .selectAll("g")
+                       .data(keys)
+                       .enter().append("g")
+                       .attr("transform", (d, i) => {
+                               return "translate(0," + i * 20 + ")"; 
+                           });
+ 
         // append (colored) boxes for elements in data
         legend.append("rect")
-              .attr("class", (d,i) => {return keys[i];})
-              .attr("x", width + 35)
-              .attr("width", 13)
-              .attr("height", 13);
+               .attr("class", (d,i) => {return keys[i];})
+               .attr("x", width + 35)
+               .attr("width", 13)
+               .attr("height", 13);
 
         // append names to legend-elements
         legend.append("text")
-            .attr("x", width + 30)
-            .attr("y", 8)
-            .attr("dy", "0.32em")
-            .text(d => { return d; });
+               .attr("x", width + 30)
+               .attr("y", 8)
+               .attr("dy", "0.32em")
+               .text(d => { return d; });
     }
 
     // create graph for life expectancy
@@ -178,20 +178,21 @@ window.onload = function()
 
         // append title
         svg.append("text")
-                .attr("class", "title")
-                .attr("x", "37%")
-                .attr("y", 20)
-                .text(gender.toUpperCase() + "'S LIFE EXPECTANCY");
+            .attr("x", "37%")
+            .attr("y", 20)
+            .attr("class", "title")
+            .text(gender.toUpperCase() + "'S LIFE EXPECTANCY");
         
         // append source notation
         svg.append("text")
-           .text("source: CBS")
-           .attr("x", "46.5%")
-           .attr("y", 50);
+            .text("source: CBS")
+            .attr("x", "46.5%")
+            .attr("y", 50);
 
         // append element for extra graphics
         var g = svg.append("g")
-                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+                    .attr("transform", "translate(" + margin.left + "," 
+                            + margin.top + ")");
 
         // define domains
         x.domain(data.map(d => { return d.period; }));
@@ -199,42 +200,42 @@ window.onload = function()
 
         // create x-axis
         g.append("g")
-                .attr("transform", "translate(0," + height + ")")
-                .call(d3.axisBottom(x))
-                .append("text")
-                .attr("x", width / 2)
-                .attr("y", 35)
-                .attr("fill", "#000")
-                .text("PERIOD");
+          .attr("transform", "translate(0," + height + ")")
+          .call(d3.axisBottom(x))
+          .append("text")
+          .attr("x", width / 2)
+          .attr("y", 35)
+          .attr("fill", "#000")
+          .text("PERIOD");
 
         // create y-axis
         g.append("g")
-                .attr("class", "axis_y")
-                .call(d3.axisLeft(y))
-                .append("text")
-                .attr("id", "life_title")
-                .attr("transform", "rotate(-90)")
-                .attr("y", -40)
-                .attr("x", -(height / 3))
-                .attr("dy", "0.71em")
-                .attr("text-anchor", "end")
-                .attr("fill", "#000")
-                .text("LIFE EXPECTANCY (years)");
+          .attr("class", "axis_y")
+          .call(d3.axisLeft(y))
+          .append("text")
+          .attr("id", "life_title")
+          .attr("transform", "rotate(-90)")
+          .attr("y", -40)
+          .attr("x", -(height / 3))
+          .attr("dy", "0.71em")
+          .attr("text-anchor", "end")
+          .attr("fill", "#000")
+          .text("LIFE EXPECTANCY (years)");
 
         // create bars
         g.selectAll(".bar")
-                .data(data)
-                .enter().append("rect")
-                .on("click", d => {
-                    update(originalData);
-                })
-                .attr("class", "bar " + data[0].sex) 
-                .attr("x", d => { return x(d.period); })
-                .attr("y", d => { return y(d.expected); })
-                .attr("width", x.bandwidth())
-                .attr("height", d => {
-                    return height - y(d.expected);
-                });
+          .data(data)
+          .enter().append("rect")
+          .on("click", d => {
+              update(originalData);
+          })
+          .attr("class", "bar " + data[0].sex) 
+          .attr("x", d => { return x(d.period); })
+          .attr("y", d => { return y(d.expected); })
+          .attr("width", x.bandwidth())
+          .attr("height", d => {
+              return height - y(d.expected);
+          });
     };
 
     // updates chart
