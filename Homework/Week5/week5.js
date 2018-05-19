@@ -219,7 +219,7 @@ window.onload = function()
                 .attr("dy", "0.71em")
                 .attr("text-anchor", "end")
                 .attr("fill", "#000")
-                .text("LIFE EXPECTANCY");
+                .text("LIFE EXPECTANCY (years)");
 
         // create bars
         g.selectAll(".bar")
