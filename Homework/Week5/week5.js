@@ -203,7 +203,8 @@ window.onload = function()
 
         // define domains
         x.domain(data.map(d => { return d.period; }));
-        y.domain([0, d3.max(data, d => { return Math.ceil(d.expected); })]);
+        y.domain([d3.min(data, d => { return Math.floor(d.expected); }), 
+                  d3.max(data, d => { return Math.ceil(d.expected); })]);
 
         // create x-axis
         g.append("g")
@@ -266,7 +267,9 @@ window.onload = function()
           
         // define new domains
         x.domain(data.map(d => { return d.period; }));
-        y.domain([0, d3.max(data, d => { return Math.ceil(d.expected); })]);
+        y.domain([d3.min(data, d => { return Math.floor(d.expected); }), 
+                  d3.max(data, d => { return Math.ceil(d.expected); })]);
+
 
         // update x-axis
         svg.select(".axis_x")
