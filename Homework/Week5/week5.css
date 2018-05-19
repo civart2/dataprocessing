@@ -4,6 +4,7 @@
  * Assignment 5: Linked Views
  */
 
+// DOM-elements
 div
 {
     display: block;
@@ -21,6 +22,7 @@ text
     font-family: sans-serif;
 }
 
+// ID's
 #color
 {
     display: block;
@@ -36,6 +38,8 @@ text
     color: darkblue;
     text-align: center;
 }
+
+// Classes
 .female
 {
     fill: #045a8d;
@@ -57,6 +61,7 @@ text
     margin-top:-60px;
     margin-bottom: -40px;
 }
+
 .male
 {
     fill: #2b8cbe;
