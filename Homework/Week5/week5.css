@@ -53,6 +53,7 @@ text
 .jumbotron
 {
     background-color: transparent; 
+    color: #000;
     margin-top:-60px;
     margin-bottom: -40px;
 }
