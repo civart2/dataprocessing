@@ -86,7 +86,7 @@ window.onload = function()
         x1.domain(keys).rangeRound([0, x0.bandwidth()]);
         y.domain([0, d3.max(data, d => { return d3.max(keys, key => 
                 { return d[key]; }); })]).nice();
-
+        
         // append g-element to create bars and put them at the right position
         g.append("g")
           .selectAll("g")
@@ -96,16 +96,23 @@ window.onload = function()
               return "translate(" + x0(d.period) + ",0)"; 
               })
           .selectAll("rect")
-          .data(d => { return keys.map(key => { 
-                  return { "key": key, "value": d[key]} });
-              })
+          .data(d => { let period = d.period; return keys.map(key => { 
+                  return { "key": key, "value": d[key], "period":period}; });
+                })
           .enter().append("rect")
-          .attr("class", d => {return ("bar " + d.key)})
-          .attr("x", d => { return x1(d.key); })
-          .attr("y", d => { return y(d.value); })
-          .attr("width", x1.bandwidth())
-          .attr("height", d => { return height - y(d.value); })
-          .on("click", d => { gender = d.key; update(data2); });
+           .attr("class", d => {return ("bar " + d.key)})
+           .attr("x", d => { return x1(d.key); })
+           .attr("y", d => { return y(d.value); })
+           .attr("width", x1.bandwidth())
+           .attr("height", d => { return height - y(d.value); })
+           .on("click", d => { 
+                    d3.select("#value_text")
+                      .text("Period: " + d.period + " | " + 
+                            "Value: " + d.value + " | " + 
+                            "Gender: " + d.key);
+                    
+                    gender = d.key; update(data2); });
+           
 
         // create  x-axis
         g.append("g")
