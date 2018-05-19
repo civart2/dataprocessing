@@ -33,6 +33,9 @@ text
 {
     fill: #045a8d;
     transition-duration: 1s !important;
+    -webkit-transition-duration: 1s !important;
+    -moz-transition-duration: 1s !important;
+    -o-transition-duration: 1s !important;
 }
 
 .female:hover
@@ -50,6 +53,9 @@ text
 {
     fill: #2b8cbe;
     transition-duration: 1s !important;
+    -webkit-transition-duration: 1s !important;
+    -moz-transition-duration: 1s !important;
+    -o-transition-duration: 1s !important;
 }
 
 .male:hover
