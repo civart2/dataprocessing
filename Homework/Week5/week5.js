@@ -26,7 +26,7 @@ window.onload = function()
         // import and load files
         queue()
             .defer(d3.json, "data.json")
-            .defer(d3.json, "data2.json")
+            .defer(d3.json, "data3.json")
             .await(generateData);
 
     // generates country data
@@ -177,7 +177,7 @@ window.onload = function()
                             "Value: " + d.value + " | " + 
                             "Gender: " + d.key);
                     
-                    gender = d.key; update(data2, "gender"); });
+                    gender = d.key; update(data2); });
            
 
         // create  x-axis
