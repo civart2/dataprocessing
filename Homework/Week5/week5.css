@@ -40,6 +40,18 @@ text
 }
 
 /* Classes */
+.btn
+{
+    display: block;
+    margin: auto;
+}
+
+.btn-primary
+{
+    color: black;
+    background: transparent;
+}
+
 .female
 {
     fill: #045a8d;
