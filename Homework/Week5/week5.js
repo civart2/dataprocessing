@@ -25,7 +25,7 @@ window.onload = function()
         // import and load files
         queue()
             .defer(d3.json, "data.json")
-            .defer(d3.json, "data2.json")
+            .defer(d3.json, "data3.json")
             .await(generateData);
 
     // generates country data
@@ -82,23 +82,14 @@ window.onload = function()
         }
         
         originalData2 = countries;
-        createGraph(data, countries, country);
+        createGraph(data, countries);
     }
     
     // create the graph
-    function createGraph(data, data2, country)
+    function createGraph(data, data2)
     {     
-        // restore data2 (for use after country update)
-        data2 = originalData2;
-        
-        // check which country is selected, if unidentified then itś the
-        // netherlands
-        if(country == "lux")
-            data2 = data2.lux;
-        else if(country == "be")
-            data2 = data2.be;
-        else
-            data2 = data2.nl;
+        // assign dutch data
+        data2 = data2.nl;
         
         // create graph for average age in population and life expectancy
         graphPopulation(data, data2);
@@ -397,12 +388,19 @@ window.onload = function()
     // changes country selected
     function updateCountry(country)
     {        
-        // delete all svg's
-        var svg = d3.selectAll("svg").empty();
-        d3.selectAll("g").remove();
-        d3.selectAll("text").remove();
+        // restore data2 (for use after country update)
+        data2 = originalData2;
+        
+        // check which country is selected, if unidentified then itś the
+        // netherlands
+        if(country == "lux")
+            data2 = data2.lux;
+        else if(country == "be")
+            data2 = data2.be;
+        else
+            data2 = data2.nl;
         
         // create new Graph
-        createGraph(originalData, originalData2, country);
+        update(data2);
     }
 };
