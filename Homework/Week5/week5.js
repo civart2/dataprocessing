@@ -35,6 +35,7 @@ window.onload = function()
         if (error)
             throw error;
         
+        // backup data
         originalData = data;
         originalData2 = data2;
         
@@ -400,7 +401,7 @@ window.onload = function()
         else
             data2 = data2.nl;
         
-        // create new Graph
+        // update graph
         update(data2);
     }
 };
