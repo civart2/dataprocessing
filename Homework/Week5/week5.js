@@ -25,7 +25,7 @@ window.onload = function()
         // import and load files
         queue()
             .defer(d3.json, "data.json")
-            .defer(d3.json, "data3.json")
+            .defer(d3.json, "data2.json")
             .await(generateData);
 
     // generates country data
