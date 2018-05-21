@@ -13,20 +13,93 @@ window.onload = function()
         height = 500 - margin.top - margin.bottom,
         colorRange = {"male": "#2b8cbe", "female":"#045a8d"},
         colorRange2 = {"male":"#feb24c","female":"#fd8d3c"},
-        gender = "male";
+        gender = "male",
+        originalData = [],       // for backup and update
+        originalData2 = [];      // for backup and update countries
 
-    // import and load files
-    queue()
-        .defer(d3.json, "data.json")
-        .defer(d3.json, "data2.json")
-        .await(createGraph);
+        // define buttons for country change
+        document.getElementById("nl").onclick = function() { updateCountry("nl") };
+        document.getElementById("be").onclick = function() { updateCountry("be") };
+        document.getElementById("lux").onclick = function() { updateCountry("lux") };
+        
+        // import and load files
+        queue()
+            .defer(d3.json, "data.json")
+            .defer(d3.json, "data3.json")
+            .await(generateData);
 
-    // create the graph
-    function createGraph(error, data, data2)
+    // generates country data
+    function generateData(error, data, data2, country)   
     {
+        // check for errors
         if (error)
             throw error;
+        
+        originalData = data;
+        originalData2 = data2;
+        
+        // define NL data
+        var periodNL = Object.keys(data2[0].NL.male);
+        var maleNL = Object.values(data2[0].NL.male);
+        var femaleNL = Object.values(data2[0].NL.female);
+        
+        // define BE data
+        var periodBE = Object.keys(data2[0].BE.male);
+        var maleBE = Object.values(data2[0].BE.male);
+        var femaleBE = Object.values(data2[0].BE.female);
+        
+        // define LUX data
+        var periodLUX = Object.keys(data2[0].LUX.male);
+        var maleLUX = Object.values(data2[0].LUX.male);
+        var femaleLUX = Object.values(data2[0].LUX.female);
 
+        // define countries
+        var countries = {   "nl":[{male:[], female:[]}],
+                            "be":[{male:[], female:[]}],
+                            "lux":[{male:[], female:[]}]
+                        };
+        
+        // define arrays for objects
+        for (let i = 0; i < periodNL.length; i++)
+        {   
+            // define netherlands object
+            countries.nl[0].male.push({ "period":+periodNL[i], "sex":"male", 
+                "expected":+maleNL[i] });            
+            countries.nl[0].female.push({ "period":+periodNL[i], "sex":"female", 
+                "expected":+femaleNL[i] });
+            
+            // define belgium object
+            countries.be[0].male.push({ "period":+periodBE[i], "sex":"male", 
+                "expected":+maleBE[i] });            
+            countries.be[0].female.push({ "period":+periodBE[i], "sex":"female", 
+                "expected":+femaleBE[i] });
+    
+            // define luxembourg object
+            countries.lux[0].male.push({ "period":+periodLUX[i], "sex":"male", 
+                "expected":+maleLUX[i] });            
+            countries.lux[0].female.push({ "period":+periodLUX[i], 
+                "sex":"female", "expected":+femaleLUX[i] });
+        }
+        
+        originalData2 = countries;
+        createGraph(data, countries, country);
+    }
+    
+    // create the graph
+    function createGraph(data, data2, country)
+    {     
+        // restore data2 (for use after country update)
+        data2 = originalData2;
+        
+        // check which country is selected, if unidentified then itś the
+        // netherlands
+        if(country == "lux")
+            data2 = data2.lux;
+        else if(country == "be")
+            data2 = data2.be;
+        else
+            data2 = data2.nl;
+        
         // create graph for average age in population and life expectancy
         graphPopulation(data, data2);
         graphExpected(data2);
@@ -319,5 +392,17 @@ window.onload = function()
         // change male bars color
         for (let bar of bars2._groups[0])
             bar.setAttribute("style", "fill:" + colorRange.male);
+    }
+    
+    // changes country selected
+    function updateCountry(country)
+    {        
+        // delete all svg's
+        var svg = d3.selectAll("svg").empty();
+        d3.selectAll("g").remove();
+        d3.selectAll("text").remove();
+        
+        // create new Graph
+        createGraph(originalData, originalData2, country);
     }
 };
