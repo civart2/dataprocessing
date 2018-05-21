@@ -2,6 +2,7 @@
  * Student name: Civio Arts
  * Student number: 11043946
  * Assignment 5: Linked Views
+ * Date: 18-05-2018
  */
 window.onload = function()
 {
@@ -25,7 +26,7 @@ window.onload = function()
         // import and load files
         queue()
             .defer(d3.json, "data.json")
-            .defer(d3.json, "data2.json")
+            .defer(d3.json, "data3.json")
             .await(generateData);
 
     // generates country data
@@ -176,7 +177,7 @@ window.onload = function()
                             "Value: " + d.value + " | " + 
                             "Gender: " + d.key);
                     
-                    gender = d.key; update(data2); });
+                    gender = d.key; update(data2, "gender"); });
            
 
         // create  x-axis
@@ -300,7 +301,7 @@ window.onload = function()
           .data(data)
           .enter().append("rect")
           .on("click", d => {
-              update(originalData);
+              update(originalData, "gender");
           })
           .attr("class", "bar " + data[0].sex) 
           .attr("x", d => { return x(d.period); })
@@ -312,8 +313,18 @@ window.onload = function()
     };
 
     // updates chart
-    function update(data)
+    function update(data, type)
     {
+        // checks if it's a gender update
+        if(type == "gender")
+        {
+            // change gender to opposite
+            if(gender == "female")
+                gender = "male"
+            else
+                gender = "female"
+        }
+        
         // define the right data
         data = data[0][gender];
         
@@ -357,12 +368,6 @@ window.onload = function()
            })
            .attr("class", "bar " + gender)
            .attr("style", "fill:" + colorRange[gender]);
-   
-        // change gender to opposite
-        if(gender == "female")
-            gender = "male"
-        else
-            gender = "female"
     }
     
     // changes time between year-range and current year
