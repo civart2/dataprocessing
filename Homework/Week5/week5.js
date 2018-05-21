@@ -258,7 +258,7 @@ window.onload = function()
         
         // append source notation
         svg.append("text")
-            .text("source: CBS")
+            .text("source: WORLD DATA BANK")
             .attr("x", "46.5%")
             .attr("y", 50);
 
