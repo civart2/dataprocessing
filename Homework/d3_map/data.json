@@ -1,0 +1,1523 @@
+[{
+    "country": "Afghanistan",
+    "code": "AFG",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -1.5637351274
+  },
+  {
+    "country": "Albania",
+    "code": "ALB",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.3975670934
+  },
+  {
+    "country": "Algeria",
+    "code": "DZA",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.6913592815
+  },
+  {
+    "country": "American Samoa",
+    "code": "ASM",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 1.2303408384
+  },
+  {
+    "country": "Andorra",
+    "code": "AND",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 1.2303408384
+  },
+  {
+    "country": "Angola",
+    "code": "AGO",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -1.4118286371
+  },
+  {
+    "country": "Anguilla",
+    "code": "AIA",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 1.2303408384
+  },
+  {
+    "country": "Antigua and Barbuda",
+    "code": "ATG",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.6922923923
+  },
+  {
+    "country": "Argentina",
+    "code": "ARG",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.3131358922
+  },
+  {
+    "country": "Armenia",
+    "code": "ARM",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.5687297583
+  },
+  {
+    "country": "Aruba",
+    "code": "ABW",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 1.2922312021
+  },
+  {
+    "country": "Australia",
+    "code": "AUS",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 1.7708473206
+  },
+  {
+    "country": "Austria",
+    "code": "AUT",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 1.5440573692
+  },
+  {
+    "country": "Azerbaijan",
+    "code": "AZE",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.8699302077
+  },
+  {
+    "country": "Bahamas, The",
+    "code": "BHS",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 1.1345293522
+  },
+  {
+    "country": "Bahrain",
+    "code": "BHR",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.0582483634
+  },
+  {
+    "country": "Bangladesh",
+    "code": "BGD",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.8017194271
+  },
+  {
+    "country": "Barbados",
+    "code": "BRB",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 1.243498683
+  },
+  {
+    "country": "Belarus",
+    "code": "BLR",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.2852197587
+  },
+  {
+    "country": "Belgium",
+    "code": "BEL",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 1.6033593416
+  },
+  {
+    "country": "Belize",
+    "code": "BLZ",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.2449842095
+  },
+  {
+    "country": "Benin",
+    "code": "BEN",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.4825152457
+  },
+  {
+    "country": "Bermuda",
+    "code": "BMU",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 1.2303408384
+  },
+  {
+    "country": "Bhutan",
+    "code": "BTN",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 1.1367549896
+  },
+  {
+    "country": "Bolivia",
+    "code": "BOL",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.7104046941
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "code": "BIH",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.4703873694
+  },
+  {
+    "country": "Botswana",
+    "code": "BWA",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.9345464706
+  },
+  {
+    "country": "Brazil",
+    "code": "BRA",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.4434447885
+  },
+  {
+    "country": "Brunei Darussalam",
+    "code": "BRN",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.6566900611
+  },
+  {
+    "country": "Bulgaria",
+    "code": "BGR",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.1612711847
+  },
+  {
+    "country": "Burkina Faso",
+    "code": "BFA",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.1252763718
+  },
+  {
+    "country": "Burundi",
+    "code": "BDI",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -1.1801306009
+  },
+  {
+    "country": "Cabo Verde",
+    "code": "CPV",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.8753885031
+  },
+  {
+    "country": "Cambodia",
+    "code": "KHM",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -1.2971270084
+  },
+  {
+    "country": "Cameroon",
+    "code": "CMR",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -1.1356887817
+  },
+  {
+    "country": "Canada",
+    "code": "CAN",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 1.9825955629
+  },
+  {
+    "country": "Cayman Islands",
+    "code": "CYM",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.5333274007
+  },
+  {
+    "country": "Central African Republic",
+    "code": "CAF",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -1.2752771378
+  },
+  {
+    "country": "Chad",
+    "code": "TCD",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -1.4542673826
+  },
+  {
+    "country": "Chile",
+    "code": "CHL",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 1.112772584
+  },
+  {
+    "country": "China",
+    "code": "CHN",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.2525393665
+  },
+  {
+    "country": "Colombia",
+    "code": "COL",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.3370967209
+  },
+  {
+    "country": "Comoros",
+    "code": "COM",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.642801702
+  },
+  {
+    "country": "Congo, Dem. Rep.",
+    "code": "COD",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -1.3330913782
+  },
+  {
+    "country": "Congo, Rep.",
+    "code": "COG",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -1.2073587179
+  },
+  {
+    "country": "Cook Islands",
+    "code": "COK",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": ".."
+  },
+  {
+    "country": "Costa Rica",
+    "code": "CRI",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.7024154067
+  },
+  {
+    "country": "Cote d'Ivoire",
+    "code": "CIV",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.5396043658
+  },
+  {
+    "country": "Croatia",
+    "code": "HRV",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.1941785067
+  },
+  {
+    "country": "Cuba",
+    "code": "CUB",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.0531746969
+  },
+  {
+    "country": "Cyprus",
+    "code": "CYP",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.8224774003
+  },
+  {
+    "country": "Czech Republic",
+    "code": "CZE",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.5061666965
+  },
+  {
+    "country": "Denmark",
+    "code": "DNK",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 2.2431414127
+  },
+  {
+    "country": "Djibouti",
+    "code": "DJI",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.650624156
+  },
+  {
+    "country": "Dominica",
+    "code": "DMA",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.6266749501
+  },
+  {
+    "country": "Dominican Republic",
+    "code": "DOM",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.7767014503
+  },
+  {
+    "country": "Ecuador",
+    "code": "ECU",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.6727700233
+  },
+  {
+    "country": "Egypt, Arab Rep.",
+    "code": "EGY",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.629355073
+  },
+  {
+    "country": "El Salvador",
+    "code": "SLV",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.5660495162
+  },
+  {
+    "country": "Equatorial Guinea",
+    "code": "GNQ",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -1.8134402037
+  },
+  {
+    "country": "Eritrea",
+    "code": "ERI",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -1.131860733
+  },
+  {
+    "country": "Estonia",
+    "code": "EST",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 1.2138659954
+  },
+  {
+    "country": "Ethiopia",
+    "code": "ETH",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.4389515519
+  },
+  {
+    "country": "Fiji",
+    "code": "FJI",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.1342711449
+  },
+  {
+    "country": "Finland",
+    "code": "FIN",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 2.283062458
+  },
+  {
+    "country": "France",
+    "code": "FRA",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 1.366199851
+  },
+  {
+    "country": "French Guiana",
+    "code": "GUF",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.9793218374
+  },
+  {
+    "country": "Gabon",
+    "code": "GAB",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.7492890954
+  },
+  {
+    "country": "Gambia, The",
+    "code": "GMB",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.7969101667
+  },
+  {
+    "country": "Georgia",
+    "code": "GEO",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.6730877757
+  },
+  {
+    "country": "Germany",
+    "code": "DEU",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 1.8265619278
+  },
+  {
+    "country": "Ghana",
+    "code": "GHA",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.1662190408
+  },
+  {
+    "country": "Greece",
+    "code": "GRC",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.0521949194
+  },
+  {
+    "country": "Greenland",
+    "code": "GRL",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 1.1683008671
+  },
+  {
+    "country": "Grenada",
+    "code": "GRD",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.5689438581
+  },
+  {
+    "country": "Guam",
+    "code": "GUM",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 1.2303408384
+  },
+  {
+    "country": "Guatemala",
+    "code": "GTM",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.7406385541
+  },
+  {
+    "country": "Guinea",
+    "code": "GIN",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.942135036
+  },
+  {
+    "country": "Guinea-Bissau",
+    "code": "GNB",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -1.5563358068
+  },
+  {
+    "country": "Guyana",
+    "code": "GUY",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.3204786181
+  },
+  {
+    "country": "Haiti",
+    "code": "HTI",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -1.3482867479
+  },
+  {
+    "country": "Honduras",
+    "code": "HND",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.6894920468
+  },
+  {
+    "country": "Hong Kong SAR, China",
+    "code": "HKG",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 1.5771564245
+  },
+  {
+    "country": "Hungary",
+    "code": "HUN",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.0812878683
+  },
+  {
+    "country": "Iceland",
+    "code": "ISL",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 1.9877318144
+  },
+  {
+    "country": "India",
+    "code": "IND",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.302169323
+  },
+  {
+    "country": "Indonesia",
+    "code": "IDN",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.3878609538
+  },
+  {
+    "country": "Iran, Islamic Rep.",
+    "code": "IRN",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.7164083123
+  },
+  {
+    "country": "Iraq",
+    "code": "IRQ",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -1.3959918022
+  },
+  {
+    "country": "Ireland",
+    "code": "IRL",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 1.6276700497
+  },
+  {
+    "country": "Israel",
+    "code": "ISR",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 1.0597096682
+  },
+  {
+    "country": "Italy",
+    "code": "ITA",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.0464959852
+  },
+  {
+    "country": "Jamaica",
+    "code": "JAM",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.1609009504
+  },
+  {
+    "country": "Japan",
+    "code": "JPN",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 1.5110267401
+  },
+  {
+    "country": "Jersey, Channel Islands",
+    "code": "JEY",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 1.141849637
+  },
+  {
+    "country": "Jordan",
+    "code": "JOR",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.2688763738
+  },
+  {
+    "country": "Kazakhstan",
+    "code": "KAZ",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.8046425581
+  },
+  {
+    "country": "Kenya",
+    "code": "KEN",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.8974148035
+  },
+  {
+    "country": "Kiribati",
+    "code": "KIR",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.2487992197
+  },
+  {
+    "country": "Korea, Dem. People’s Rep.",
+    "code": "PRK",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -1.4495897293
+  },
+  {
+    "country": "Korea, Rep.",
+    "code": "KOR",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.3723601103
+  },
+  {
+    "country": "Kosovo",
+    "code": "XKX",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.4202599823
+  },
+  {
+    "country": "Kuwait",
+    "code": "KWT",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.2040252984
+  },
+  {
+    "country": "Kyrgyz Republic",
+    "code": "KGZ",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -1.0785244703
+  },
+  {
+    "country": "Lao PDR",
+    "code": "LAO",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.9302603602
+  },
+  {
+    "country": "Latvia",
+    "code": "LVA",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.4912581742
+  },
+  {
+    "country": "Lebanon",
+    "code": "LBN",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.9663581848
+  },
+  {
+    "country": "Lesotho",
+    "code": "LSO",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.0193857588
+  },
+  {
+    "country": "Liberia",
+    "code": "LBR",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.713470161
+  },
+  {
+    "country": "Libya",
+    "code": "LBY",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -1.5689016581
+  },
+  {
+    "country": "Liechtenstein",
+    "code": "LIE",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 2.0511350632
+  },
+  {
+    "country": "Lithuania",
+    "code": "LTU",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.6656780243
+  },
+  {
+    "country": "Luxembourg",
+    "code": "LUX",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 2.0763015747
+  },
+  {
+    "country": "Macao SAR, China",
+    "code": "MAC",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.8330753446
+  },
+  {
+    "country": "Macedonia, FYR",
+    "code": "MKD",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.3071886897
+  },
+  {
+    "country": "Madagascar",
+    "code": "MDG",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.903342247
+  },
+  {
+    "country": "Malawi",
+    "code": "MWI",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.7529902458
+  },
+  {
+    "country": "Malaysia",
+    "code": "MYS",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.1111870632
+  },
+  {
+    "country": "Maldives",
+    "code": "MDV",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.6742759943
+  },
+  {
+    "country": "Mali",
+    "code": "MLI",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.6673856974
+  },
+  {
+    "country": "Malta",
+    "code": "MLT",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.7179219127
+  },
+  {
+    "country": "Marshall Islands",
+    "code": "MHL",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.0594031364
+  },
+  {
+    "country": "Martinique",
+    "code": "MTQ",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 1.2303408384
+  },
+  {
+    "country": "Mauritania",
+    "code": "MRT",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.801491797
+  },
+  {
+    "country": "Mauritius",
+    "code": "MUS",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.3186225891
+  },
+  {
+    "country": "Mexico",
+    "code": "MEX",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.7661818266
+  },
+  {
+    "country": "Micronesia, Fed. Sts.",
+    "code": "FSM",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.6530460715
+  },
+  {
+    "country": "Moldova",
+    "code": "MDA",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.9593968391
+  },
+  {
+    "country": "Monaco",
+    "code": "MCO",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": ".."
+  },
+  {
+    "country": "Mongolia",
+    "code": "MNG",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.4997163117
+  },
+  {
+    "country": "Montenegro",
+    "code": "MNE",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.1003328487
+  },
+  {
+    "country": "Morocco",
+    "code": "MAR",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.1497758627
+  },
+  {
+    "country": "Mozambique",
+    "code": "MOZ",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.8655613065
+  },
+  {
+    "country": "Myanmar",
+    "code": "MMR",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.646173954
+  },
+  {
+    "country": "Namibia",
+    "code": "NAM",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.3711256385
+  },
+  {
+    "country": "Nauru",
+    "code": "NRU",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.4682526886
+  },
+  {
+    "country": "Nepal",
+    "code": "NPL",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.7596687675
+  },
+  {
+    "country": "Netherlands",
+    "code": "NLD",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 1.9509955645
+  },
+  {
+    "country": "Netherlands Antilles",
+    "code": "ANT",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": ".."
+  },
+  {
+    "country": "New Zealand",
+    "code": "NZL",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 2.2952046394
+  },
+  {
+    "country": "Nicaragua",
+    "code": "NIC",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.8878116012
+  },
+  {
+    "country": "Niger",
+    "code": "NER",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.6444728374
+  },
+  {
+    "country": "Nigeria",
+    "code": "NGA",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -1.0423718691
+  },
+  {
+    "country": "Niue",
+    "code": "NIU",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": ".."
+  },
+  {
+    "country": "Norway",
+    "code": "NOR",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 2.1993412971
+  },
+  {
+    "country": "Oman",
+    "code": "OMN",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.3719055355
+  },
+  {
+    "country": "Pakistan",
+    "code": "PAK",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.8571122885
+  },
+  {
+    "country": "Palau",
+    "code": "PLW",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.4682526886
+  },
+  {
+    "country": "Panama",
+    "code": "PAN",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.4865169525
+  },
+  {
+    "country": "Papua New Guinea",
+    "code": "PNG",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.9233881235
+  },
+  {
+    "country": "Paraguay",
+    "code": "PRY",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.7485566735
+  },
+  {
+    "country": "Peru",
+    "code": "PER",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.3543727398
+  },
+  {
+    "country": "Philippines",
+    "code": "PHL",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.5287842751
+  },
+  {
+    "country": "Poland",
+    "code": "POL",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.7456032634
+  },
+  {
+    "country": "Portugal",
+    "code": "PRT",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.9602523446
+  },
+  {
+    "country": "Puerto Rico",
+    "code": "PRI",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.0354522169
+  },
+  {
+    "country": "Qatar",
+    "code": "QAT",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.9184405208
+  },
+  {
+    "country": "Reunion",
+    "code": "REU",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.642547667
+  },
+  {
+    "country": "Romania",
+    "code": "ROU",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.0009396243
+  },
+  {
+    "country": "Russian Federation",
+    "code": "RUS",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.8597840071
+  },
+  {
+    "country": "Rwanda",
+    "code": "RWA",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.6919294
+  },
+  {
+    "country": "Samoa",
+    "code": "WSM",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.2811126411
+  },
+  {
+    "country": "San Marino",
+    "code": "SMR",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": ".."
+  },
+  {
+    "country": "Sao Tome and Principe",
+    "code": "STP",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.0611656755
+  },
+  {
+    "country": "Saudi Arabia",
+    "code": "SAU",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.2259890735
+  },
+  {
+    "country": "Senegal",
+    "code": "SEN",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.0290071853
+  },
+  {
+    "country": "Serbia",
+    "code": "SRB",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.3147437572
+  },
+  {
+    "country": "Seychelles",
+    "code": "SYC",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.7934771776
+  },
+  {
+    "country": "Sierra Leone",
+    "code": "SLE",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.8173878789
+  },
+  {
+    "country": "Singapore",
+    "code": "SGP",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 2.0707113743
+  },
+  {
+    "country": "Slovak Republic",
+    "code": "SVK",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.2361031473
+  },
+  {
+    "country": "Slovenia",
+    "code": "SVN",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.8013528585
+  },
+  {
+    "country": "Solomon Islands",
+    "code": "SLB",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.3433189094
+  },
+  {
+    "country": "Somalia",
+    "code": "SOM",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -1.6882822514
+  },
+  {
+    "country": "South Africa",
+    "code": "ZAF",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.0498166531
+  },
+  {
+    "country": "South Sudan",
+    "code": "SSD",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -1.5773158073
+  },
+  {
+    "country": "Spain",
+    "code": "ESP",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.5239101052
+  },
+  {
+    "country": "Sri Lanka",
+    "code": "LKA",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.2811331451
+  },
+  {
+    "country": "St. Kitts and Nevis",
+    "code": "KNA",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.5168195963
+  },
+  {
+    "country": "St. Lucia",
+    "code": "LCA",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.634167254
+  },
+  {
+    "country": "St. Vincent and the Grenadines",
+    "code": "VCT",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.6783550382
+  },
+  {
+    "country": "Sudan",
+    "code": "SDN",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -1.6140422821
+  },
+  {
+    "country": "Suriname",
+    "code": "SUR",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.3213362992
+  },
+  {
+    "country": "Swaziland",
+    "code": "SWZ",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.4403716028
+  },
+  {
+    "country": "Sweden",
+    "code": "SWE",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 2.2213041782
+  },
+  {
+    "country": "Switzerland",
+    "code": "CHE",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 2.0505139828
+  },
+  {
+    "country": "Syrian Arab Republic",
+    "code": "SYR",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -1.5722224712
+  },
+  {
+    "country": "Taiwan, China",
+    "code": "TWN",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.8578077555
+  },
+  {
+    "country": "Tajikistan",
+    "code": "TJK",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -1.0729146004
+  },
+  {
+    "country": "Tanzania",
+    "code": "TZA",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.5084833503
+  },
+  {
+    "country": "Thailand",
+    "code": "THA",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.4028106928
+  },
+  {
+    "country": "Timor-Leste",
+    "code": "TLS",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.5115701556
+  },
+  {
+    "country": "Togo",
+    "code": "TGO",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.6849627495
+  },
+  {
+    "country": "Tonga",
+    "code": "TON",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.4417317808
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "code": "TTO",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.2619422376
+  },
+  {
+    "country": "Tunisia",
+    "code": "TUN",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.1183550507
+  },
+  {
+    "country": "Turkey",
+    "code": "TUR",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.1963230968
+  },
+  {
+    "country": "Turkmenistan",
+    "code": "TKM",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -1.4639697075
+  },
+  {
+    "country": "Tuvalu",
+    "code": "TUV",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.0317532755
+  },
+  {
+    "country": "Uganda",
+    "code": "UGA",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -1.0640099049
+  },
+  {
+    "country": "Ukraine",
+    "code": "UKR",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.8409392238
+  },
+  {
+    "country": "United Arab Emirates",
+    "code": "ARE",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 1.2761739492
+  },
+  {
+    "country": "United Kingdom",
+    "code": "GBR",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 1.880499959
+  },
+  {
+    "country": "United States",
+    "code": "USA",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 1.3306019306
+  },
+  {
+    "country": "Uruguay",
+    "code": "URY",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 1.3207041025
+  },
+  {
+    "country": "Uzbekistan",
+    "code": "UZB",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -1.1963727474
+  },
+  {
+    "country": "Vanuatu",
+    "code": "VUT",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.096521847
+  },
+  {
+    "country": "Venezuela, RB",
+    "code": "VEN",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -1.3925572634
+  },
+  {
+    "country": "Vietnam",
+    "code": "VNM",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.3963152468
+  },
+  {
+    "country": "Virgin Islands (U.S.)",
+    "code": "VIR",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": 0.642547667
+  },
+  {
+    "country": "West Bank and Gaza",
+    "code": "PSE",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.1518599689
+  },
+  {
+    "country": "Yemen, Rep.",
+    "code": "YEM",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -1.6682972908
+  },
+  {
+    "country": "Zambia",
+    "code": "ZMB",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -0.3961156905
+  },
+  {
+    "country": "Zimbabwe",
+    "code": "ZWE",
+    "series": "Control of Corruption: Estimate",
+    "seriesCode": "CC.EST",
+    "value": -1.2819707394
+  },
+  {
+    "country": "",
+    "code": "",
+    "series": "",
+    "seriesCode": "",
+    "value": ""
+  },
+  {
+    "country": "",
+    "code": "",
+    "series": "",
+    "seriesCode": "",
+    "value": ""
+  },
+  {
+    "country": "",
+    "code": "",
+    "series": "",
+    "seriesCode": "",
+    "value": ""
+  },
+  {
+    "Source": "Data from database: Worldwide Governance Indicators"
+  }
+]

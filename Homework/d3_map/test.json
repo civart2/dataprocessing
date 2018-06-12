@@ -1,0 +1,18 @@
+{         
+          "ARG": {"fillKey":"124", "value":"test"},
+          "BEL": {"fillKey":"YES", "value":"test"},
+          "BRA": {"fillKey":"YES", "value":"test"},
+          "CAN": {"fillKey":"YES", "value":"test"},
+          "DNK": {"fillKey":"YES", "value":"test"},
+          "FRA": {"fillKey":"124", "value":"test"},
+          "ISL": {"fillKey":"YES", "value":"test"},
+          "MEX": {"fillKey":"YES", "value":"test"},
+          "NLD": {"fillKey":"YES", "value":"test"},
+          "ZAF": {"fillKey":"YES", "value":"test"},
+          "ESP": {"fillKey":"YES", "value":"test"},
+          "SWE": {"fillKey":"YES", "value":"test"},
+          "GBR": {"fillKey":"YES", "value":"test"},
+          "URY": {"fillKey":"YES", "value":"test"},
+          "USA": {"fillKey":"YES", "value":"test"},
+          "NOR": {"fillKey":"YES", "value":"test"}
+}

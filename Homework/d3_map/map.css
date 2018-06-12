@@ -1,0 +1,35 @@
+/*
+ *  Assignment: d3 Map
+ *  Student: Civio Arts
+ *  Studentnumber: 11043946
+ */
+
+/* ID */
+#container
+{
+    display: block;
+    margin: auto;
+}
+
+/* Class */
+.box
+{
+    background-color: lightgrey;
+    display: block;
+}
+
+.define
+{
+    display: block;
+    font-size: 24px;
+}
+
+.title
+{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
