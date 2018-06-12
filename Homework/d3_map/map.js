@@ -10,6 +10,7 @@ window.onload = function()
     queue()
 	.defer(d3.json, "data.json")
         .defer(d3.json, "description.json")
+        .defer(d3.json, "design.json")
 	.await(designMap);
 };
 
@@ -83,7 +84,7 @@ function getColor(data)
     return color;
 }
 
-function designMap(error, data, description)
+function designMap(error, data, description, design)
 {
     // check for errors
     if (error)
@@ -99,6 +100,11 @@ function designMap(error, data, description)
                      .attr("class", "source")
                      .text("Source: World Data Bank | Description: " + 
                             description.definition);
+    
+    // assign design explanation
+    d3.select("body").append("p")
+                     .attr("class", "source")
+                     .text("Design: " + design.text);
     
     // process data
     data = processData(data);
