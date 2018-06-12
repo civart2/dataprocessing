@@ -1,0 +1,78 @@
+/* 
+ * Assignment: Line Graph
+ * Student name: Civio Arts
+ * Student nr: 11043946
+ * University: UvA
+ */
+
+/* DOM-elements */
+path
+{
+    fill: none;
+    stroke-width: 2;
+}
+
+svg
+{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+/* ID's */
+#mouse-radar
+{
+    fill-opacity: 0;
+}
+
+#source
+{
+    display: block;
+    margin-left: 60px;
+}
+
+/* Classes */
+.axis text
+{
+    fill: #000;
+    font-size: 14;
+    text-anchor: end;
+}
+
+.list
+{
+    display: block; 
+    margin-left: 70px;
+}
+
+.text 
+{
+    font-family: Arial;
+    font-size: 10px;
+    fill: #000;
+    text-anchor: end;
+}
+
+.databox
+{
+    width: 120px;
+    height: 60px;
+}
+
+.data-text
+{
+    fill: #000;
+    font-family: Arial;
+    font-size: 16 px;
+}
+
+.dot
+{
+    
+}
+
+.title
+{
+    text-anchor: middle;
+    font-size: 25px;
+    font-weight: bold;
+}

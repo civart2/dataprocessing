@@ -1,0 +1,43 @@
+{
+    "value": {
+        "0": {
+            "Perioden": "2010",
+            "Jaargemiddelde": 9.1,
+            "Wintergemiddelde": 1.1,
+            "Zomergemiddelde": 17.7,
+            "ID":0
+        },
+        "1": {
+            "Perioden": "2011",
+            "Jaargemiddelde": 10.9,
+            "Wintergemiddelde": 2.3,
+            "Zomergemiddelde": 16.3,
+            "ID":1
+        },
+        "2": {
+            "Perioden": "2012",
+            "Jaargemiddelde": 10.3,
+            "Wintergemiddelde": 4.1,
+            "Zomergemiddelde": 16.9,
+            "ID":2
+        },
+        "3": {
+            "Perioden": "2013",
+            "Jaargemiddelde": 9.8,
+            "Wintergemiddelde": 2.9,
+            "Zomergemiddelde": 17.5,
+            "ID":3
+        },
+        "4": {
+            "Perioden": "2014",
+            "Jaargemiddelde": 11.7,
+            "Wintergemiddelde": 6,
+            "Zomergemiddelde": 17.4,
+            "ID":4
+        }
+    },
+    "mainTitle":"SUN AND RAIN OVER THE YEARS",
+    "title":"Average rainfall (hours per day)",
+    "description":"The average hours with rainfall and sunshine per day from 2010 to 2014 in the Netherlands.",
+    "source":"CBS"
+}

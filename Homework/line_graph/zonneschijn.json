@@ -1,0 +1,40 @@
+{
+    "value": {
+        "0": {
+            "Perioden": "2010",
+            "Jaargemiddelde": 4.8,
+            "Wintergemiddelde": 3,
+            "Zomergemiddelde": 6.8,
+            "ID":0
+        },
+        "1": {
+            "Perioden": "2011",
+            "Jaargemiddelde": 4.9,
+            "Wintergemiddelde": 3.2,
+            "Zomergemiddelde": 7.1,
+            "ID":1
+        },
+        "2": {
+            "Perioden": "2012",
+            "Jaargemiddelde": 4.4,
+            "Wintergemiddelde": 2.7,
+            "Zomergemiddelde": 6.3,
+            "ID":2
+        },
+        "3": {
+            "Perioden": "2013",
+            "Jaargemiddelde": 4.5,
+            "Wintergemiddelde": 2.9,
+            "Zomergemiddelde": 6.5,
+            "ID":3
+        },
+        "4": {
+            "Perioden": "2014",
+            "Jaargemiddelde": 4.9,
+            "Wintergemiddelde": 3.4,
+            "Zomergemiddelde": 6.7,
+            "ID":4
+        }
+    },
+    "title":"Average sunshine (hours per day)"
+}
